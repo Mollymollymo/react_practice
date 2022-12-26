@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  box-sizing: border-box;
+}
+
+#menu{
+  background-color: #FEDD03;
+  width: 550px;
+  height: 750px;
+  padding: 15px 20px;
+  position:relative;
+}
+
+.title-container,.capacity-block,.oatly,.price-block,.name-and-degree,.macadamia,.nutella,.osmanthus,.beach,.icepresso
+,.chocolate,.matcha,.bonus,.expresso,.oatlymilk,.coco{
+    display:flex;
+    justify-content: space-between;
+}
+.capacity-block,.upgrades,.bonus-name-and-price{
+    text-align: center;
+}
+.regular-block{
+    margin-right: 20px;
+}
+.line{
+    width: 100%;
+    height:3px;
+    background-color: #6DE8DA;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.title-container,.name,.price-block{
+    font-weight: bold;
+    color:#E92769;
+}
+.title-en{
+    letter-spacing: -1px;
+}
+.degree{
+    color:#E92769;
+    padding:10px;
+    margin-left: 33px;
+}
+.price-block{
+    font-size: 20px;
+}
+.regular-price{
+    margin-right: 40px;
+    width: 70px;
+    text-align: center;
+}
+.upsize-price{
+    width: 42px;
+}
+.oatly,.macadamia,.nutella,.osmanthus,.beach,.icepresso,.title-container,.chocolate,.matcha{
+    margin-top: 10px;
+    align-items: center;
+}
+.name-and-degree{
+    width: 300px;
+}
+#square{
+    width: 450px;
+    height: 110px;
+    background-color:#E92769;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bonus-name-and-price{
+    color:white;
+    padding:15px;
+    font-size: 15px;
+}
+.upgrades{
+    padding: 30px;
+    color: #FEDD03;
+}
+.bonus-name{
+    margin-left: 10px;
+}
